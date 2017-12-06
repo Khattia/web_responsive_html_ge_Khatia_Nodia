@@ -1,0 +1,274 @@
+.logo {
+	width: 198px;
+	/*position: absolute;*/
+	vertical-align: middle;
+	display: inline-block;
+	margin: 20px 10px 20px 100px;
+}
+
+nav {	
+	font-family: "bpg_nino_mtavruli_bold" ;
+	color: #363E97;
+	text-align: center;
+	display: inline-block;
+	width:	50%;
+	
+}
+li {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+a:hover {
+	color: #597BCE;
+}
+a {
+	text-decoration: none;
+	color: #363E97;
+	font-size: 16px;
+}
+.icons {
+	/*height: 10px;
+	width: 10px;*/
+	/*float: left;*/
+	text-align: center;
+	display: inline;
+	/*margin-right: 100px;*/
+	position: relative;
+}
+a.icon {
+	position: relative;
+	border-right: 2px;
+	float: right;
+	width: 10px;
+	height: 10px;
+	margin-right: 1%;
+}
+.header {
+	height: 100px;
+}
+
+/*container 1 */
+
+.container-1 {
+	background-color: #E6E6E6;
+	/*margin-top: 100px;*/
+	/*position: relative;*/
+}
+.banner {
+	padding: 30px 100px 30px 100px;
+
+}
+
+/*container 2 */
+
+.container-2 {
+	background-color: #363E97;
+}
+
+h2 {
+	font-family: "bpg_nino_mtavruli_bold";
+	color: #ffffff;
+	padding: 20px 50px 20px 100px;
+}
+.container-2 {
+	    display: inline-block;
+	    font-family: "Arial";
+	    width: 100%
+}
+
+.box-1 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: x-small;
+}
+
+.box-2 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: x-small;
+}
+.box1 {
+	float: left;
+	font-family: "arial";
+	box-sizing: border-box;
+	display: inline-block;
+	width: 42%;
+	padding: 6% 0% 6% 0%;
+	margin-bottom: 4%;
+    height: 15%;
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 7.3%
+
+}
+.box2:hover,.box1:hover {
+	border: 1px solid #EE4036;
+}
+.box2 {
+	float: right;
+	font-family: "arial";
+	box-sizing: border-box;
+	display: inline-block;
+	width: 42%;
+	padding: 6% 0% 6% 0%;
+    height: 15%;
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 7.3%
+
+}
+section	{
+	display: inline-block;
+	padding-top: 50px;
+}
+.siaxleebi {
+	background-color: #BDCCD4;
+	overflow: hidden;
+	padding-bottom: 6.57%;
+}
+h3 {
+	font-family: "bpg_nino_mtavruli_bold";
+	color: #363E97;
+	padding: 90px 50px 20px 100px;
+}
+.pics {
+	background-color: #BDCCD4;
+}
+h1 {
+	font-family: "bpg_nino_mtavruli_bold";
+	background-color: #E6E6E6;
+	padding-left: 4%;
+	padding-top: 6%;
+	padding-bottom: 4%;
+
+}
+
+#pic1 {
+	float: left; 
+	height: 17.23%;  
+	width: 18.25%; 
+	padding: 0% 2% 0% 7.3%;
+	/*margin-left: 7%; 
+	margin-right: 2%; 
+	margin-bottom: 3%;*/
+}
+#pic2 {
+	float: left; 
+	height: 17.23%; 
+	width: 18.25%; 
+	padding: 0% 2% 0% 2%;
+	/*margin-left: 3%; 
+	margin-right: 2%; 
+	margin-bottom: 3%;*/
+}
+#pic3 {
+	float: left; 
+	height: 17.23%;  
+	width: 18.25%;
+	padding:	0% 2% 0% 2%;
+	/*margin-left: 3%; 
+	margin-right: 2%; 
+	margin-bottom: 3%;*/
+}
+#pic4 {
+	float: right; 
+	height: 17.23%;  
+	width: 18.25%;
+	padding:	0% 7.3% 0% 2%;
+	/*margin-left: 3%; 
+	margin-right: 2%; 
+	margin-bottom: 3%;*/
+}
+#pic1:hover,#pic2:hover,#pic3:hover,#pic4:hover {
+	filter: opacity(50%);
+}
+
+h4 {
+	font-family: "bpg_nino_mtavruli_bold";
+	color: #000000;
+	padding: 20px 50px 20px 100px;
+}
+
+.popular {
+	background-color: #E6E6E6;
+	overflow: hidden;
+	padding-bottom:4%;
+}
+.responsive {
+	float: left;
+	display: inline-block;
+	background-color: #F2F2F2;
+	width: 40%;
+/*	text-align: center;
+    vertical-align: middle;*/
+    margin-left: 7.3%
+}
+.apps {
+	float: right;
+	display: inline-block;
+	background-color: #F2F2F2;
+	width: 40%;
+/*	text-align: center;
+    vertical-align: middle;*/
+    margin-right: 7.3%
+
+}
+.responsive:hover,.apps:hover {
+	border: 1px solid #EE4036;
+}
+
+.l {
+	width: 20%;
+	margin-left: 6%;
+	margin-top: 2%;
+}
+.r{
+	width: 17%;
+	margin-left: 6%;
+	margin-top: 2%;
+}
+h5 {
+	font-family: "bpg_nino_mtavruli_bold";
+	color: #000000;
+	margin-top: 2%;
+	margin-left: 2%;
+
+}
+h6 {
+	font-family: "bpg_nino_mtavruli_bold";
+	color: #000000;	
+	margin-top: 2%;
+	margin-left: 2%;
+}
+/*h5:hover,h6:hover {
+	color:	#EE4036;
+}*/
+
+.text {
+	font-family: "bpg_ingiri_arial";
+	display: inline;
+}
+p.text {
+	width: 60%;
+    display: inline-block;
+    margin-left: 9%;
+    margin-bottom: 10%;
+    font-size: smaller;
+}
+.sign {
+	float: left;
+	margin-left: 7.3%;
+	font-size: xx-small;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.madeby {
+	float: right;
+	margin-right: 7.3%;
+    font-size: xx-small;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

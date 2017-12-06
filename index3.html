@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web_responsive_html_ge.ai</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/stylereset.css">
+	<link rel="stylesheet" href="css/style3.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/media3.css">
+</head>
+<body>
+	<header> 
+		<div class="burger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="logo"><img src="img/logo.svg" alt="Logo"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">მთავარი</a></li>
+				<li><a href="">სიახლეები</a></li>
+				<li><a href="">ჩვენს შესახებ</a></li>
+				<li><a href="index3.html">კონტაქტი</a></li>
+			</ul>
+		</nav>
+		<div class="icons">
+			<a class="icon" href=""><img src="img/google-plus.svg"></a>
+			<a class="icon" href=""><img src="img/facebook-icon.svg"></a>
+			<a class="icon" href=""><img src="img/youtube.svg"></a>
+			<a class="icon" href=""><img src="img/search.svg"></a>
+		</div>
+	</header>
+
+	<div class="container-2">
+		<h2>კონტაქტი</h2>
+	</div>
+
+
+ 	
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 41.7176851, lng: 44.784054};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+        marker.setMap(map);
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzt1FqWZYYkUqt4oRpSlquUUcGYcLx6gE&callback=initMap">
+    </script>
+
+
+
+	<section class="contact">
+		<div class="location">
+			<p class="address">მერაბ ალექსიძის ქ. #10,<br>თბილისი 0160, საქართველო</br><br>ტელ.: +332 293 12 23</br><br>ფაქსი.: +332 244 44 44</br><br>contact@mail.ge<br></p>	
+			<form class="sendbox">
+			  <label for="name">სახელი</label><br>
+			  <input type="text" id="name" name="name" value="...ჩაწერე შენი სახელი"><br>
+			  <label for="email">ელ.ფოსტა</label><br>
+			  <input type="text" id="email" name="email" value="...ჩაწერე შენი ელ.ფოსტა"><br>
+			  <label for="message">საგანი</label><br>
+			  <input type="text" id="message" name="message" value="...დაწერე შეტყობინების საგანი"><br>
+			  <label for="message">შეტყობინება</label><br>
+			  <input type="text" id="notification" name="notification" value=""><br>
+			  <a class="send" href="">გაგზავნა</a>
+			</form> 
+			
+		</div>
+		</section>
+
+	
+	<footer>
+		<p class="sign">2017 HTML ჰიპერტექსტის მარკირების ენა.</p>
+		<p class="madeby">შექმნილია: ხატია ნოდია</p>
+	</footer>
+</body>
